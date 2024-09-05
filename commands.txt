@@ -1,0 +1,11 @@
+git config ---global user.name "user.name" [setting git user name]
+git config ---global user.email "user.email" [setting git email]
+git init [to initailze git in current working directory]
+git status [to list all untracked files]
+git add -A [to add all untracked files to staging area]
+git commit -m "commit msg" [to commit with descriptive commmit message]
+git remote add remote_name  path [adding remote]
+eg: git remote add origin https://github.com/PARVATHI-7/portfolio.git
+git push remote_namr branch
+eg:  git push origin master
+git branch [to list all branches]
